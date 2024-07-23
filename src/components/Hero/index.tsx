@@ -16,20 +16,38 @@ const Hero = () => {
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
             
-                At Osharpz, we are dedicated to transforming ideas into exceptional digital experiences. Specializing in web development, web applications, and mobile applications, we focus on delivering groundbreaking solutions that drive success and elevate your digital presence. 
+              Dedicated to transforming ideas into exceptional digital experiences. Specializing in web development, web applications, and mobile applications we focus on delivering groundbreaking solutions that drive success and elevate your digital presence. 
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-12 sm:space-y-0">
+                <Link
+                href=""
+                    className="inline-block rounded-md bg-black px-8 py-3 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+              >
+                Get Started
+              </Link>
+
                   <Link
-                    href=""
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                     href=""
+                className="inline-flex items-center rounded-md bg-primary px-9 py-3 text-base font-normal text-white duration-300 ease-in-out hover:bg-primary/80"
+                  
                   >
-                    Projects
-                  </Link>
-                  <Link
-                    href=""
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-                  >
-                    Star on GitHub
+                     Projects 
+                <svg 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  stroke="#ffffff" 
+                  className="ml-1" // Adjust the margin as needed
+                  width="15" 
+                  height="15"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </g>
+                </svg>
+                   
                   </Link>
                 </div>
               </div>
